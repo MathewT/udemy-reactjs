@@ -1,0 +1,12 @@
+{
+  "name": "lambda-pack",
+  "version": "1.0.0",
+  "description": "Node.js API Server",
+  "author": "Mathew Thomas <mathew.thomas@longdivision.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-log": "3.0.1"
+  }
+}
