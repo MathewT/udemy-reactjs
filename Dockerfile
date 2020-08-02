@@ -1,6 +1,7 @@
 FROM node:14.7.0-alpine3.12
 
 RUN apk add bash
+RUN apk add bash-completion
 # Create app directory
 WORKDIR /usr/src/app
 
