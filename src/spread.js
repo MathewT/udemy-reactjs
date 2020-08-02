@@ -31,3 +31,28 @@ let morePeople = [...people, {
 
 logger.info(people);
 logger.info(morePeople);
+
+const player = {
+  name: "Warrior 1",
+  planet: "Mars"
+};
+
+const augmentedPlayer = {
+  ...player,
+  level: 15,
+  armor: "plastic"
+}
+
+logger.info(augmentedPlayer);
+
+const ageFilter = (...ages) => {
+  return (ages.filter(e => e > 50));
+};
+
+logger.info(ageFilter(108, 192, 56, 18, 33, 42));
+
+
+[a, b,, c] = ["Bonnie", "Jason", "Alice", "Fred"];
+logger.info(a);
+logger.info(b);
+logger.info(c);
